@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        style="@style/TextViewCustomeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publish message : " />
+
+
+    <RadioGroup
+        android:id="@+id/radioButtonGroup"
+        style="@style/TextViewCustomeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RBHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hello" />
+
+
+        <RadioButton
+            android:id="@+id/RBBye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bye" />
+    </RadioGroup>
+
+
+    <TextView
+        style="@style/TextViewCustomeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To a topic :" />
+
+    <EditText
+        android:id="@+id/ETTopic"
+        style="@style/EditTextCustomeStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ex: topic" />
+
+    <Button
+        android:id="@+id/btnPublish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Publish"
+        android:textAllCaps="false" />
+
+</LinearLayout>
