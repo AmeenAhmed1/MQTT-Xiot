@@ -17,3 +17,5 @@ and here how I build it:
 Also, I have [about 1 year] experience with android.
 
 
+![Screen](Screens/1.png? raw=true)
+
