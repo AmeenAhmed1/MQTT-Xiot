@@ -17,5 +17,5 @@ and here how I build it:
 Also, I have [about 1 year] experience with android.
 
 
-![ScreenShot](https://raw.github.com/AmeenAhmed1/MQTT-Xiot/tree/master/Screens/1.png)
+![ScreenShot](Screens/1.png)
 
