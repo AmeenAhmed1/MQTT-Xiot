@@ -17,6 +17,9 @@ and here how I build it:
 
 Also, I have [about 1 year] experience with android.
 
+# What I learnt from this application process:
+- How to use the MQtt service as this is my first time to work with this API.
+
 
 # Screen shots
 
